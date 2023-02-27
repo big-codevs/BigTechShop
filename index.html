@@ -5,24 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Accesorios, Tecnologia y moda..." />
         <meta name="author" content="Jorge Gamez" />
-        <title>BigTech-Mx</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <title>BigTech-Mx</title>
+
     </head>
     <body>
         
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">BigTech</a>
+                <a class="navbar-brand" href="index.html">BigTech</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contactanos</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
@@ -32,7 +31,7 @@
                                 <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
                                 <li><a class="dropdown-item" href="#!">Celulares</a></li>
                                 <li><a class="dropdown-item" href="#!">Computo</a></li>
-                                <li><a class="dropdown-item" href="#!">Ropa</a></li>
+                                <li><a class="dropdown-item" href="moda.html">Ropa y Calzado</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -48,12 +47,13 @@
         </nav>
 
         <!-- Header-->
-        <header class="bg-white py-5">
+        <header class="bg-white py-0">
             <div>
                 <img src="assets/BigTech.png" width="100%">
             </div>
         </header>
         <hr>
+
         <h2 class="text-center" style="color: darkmagenta;">
             ¡Bienvenido a nuestra tienda en línea!
         </h2>
@@ -405,6 +405,31 @@
             </div>
 
         </section>
+
+
+        <div class="container pb-3">
+            <div class="card" style="width: auto;">
+                <div class="card-header">
+                    <h5>Cuentanos, que productos son de tu interes?</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="txtNombre"
+                            placeholder="Nombre Completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo:</label>
+                        <input type="email" class="form-control" id="txtcorreo"
+                            placeholder="example@mail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Comentarios" class="form-label">Comentarios:</label>
+                        <textarea class="form-control" id="txtComentarios" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- PIE PAGINA-->
